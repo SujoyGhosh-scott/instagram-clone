@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer > .MuiSvgIcon-root {
+  cursor: pointer;
+  color: gray;
+}
+
+.footer__link {
+  text-decoration: none;
+}
+
+.add-post {
+  position: absolute;
+  bottom: 60px;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.add-post input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline-width: 0;
+  color: gray;
+}
+
+.add-post button {
+  background-color: transparent;
+  border: none;
+  color: rgb(40, 135, 224);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-post-form-row2 {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100vw;
+  }
+}

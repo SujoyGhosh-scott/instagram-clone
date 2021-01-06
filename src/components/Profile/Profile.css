@@ -1,0 +1,79 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
+.profile__body {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.profile__username {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.edit__profile {
+  display: flex;
+  color: skyblue;
+  align-items: center;
+  font-size: smaller;
+  margin-right: 1rem;
+}
+.profile__body > .MuiAvatar-root {
+  height: 7rem;
+  width: 7rem;
+  margin-left: 1rem;
+}
+.edit__profile > .MuiSvgIcon-root {
+  margin-left: 1rem;
+}
+
+.profile__body__info {
+  margin-right: auto;
+  margin-left: 10rem;
+}
+
+.profile__posts {
+  border-top: 1px solid lightgray;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.profile__posts__header {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__posts__header div {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+  font-size: small;
+  cursor: pointer;
+}
+
+.profile__posts__header p {
+  margin-left: 0.5rem;
+}
+
+.header__selected {
+  height: 1px;
+  width: 5rem;
+  background-color: gray;
+  position: relative;
+  left: -12rem;
+  top: 2rem;
+}

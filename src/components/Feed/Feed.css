@@ -1,0 +1,28 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feed__header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.feed__footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}

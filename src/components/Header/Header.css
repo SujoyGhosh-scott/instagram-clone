@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  background-color: #fff;
+  z-index: 5;
+}
+
+.header img {
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+}
